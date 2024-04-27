@@ -184,7 +184,7 @@ class HorizontalDrawer(Drawer):
                 id="max_font_size",
                 name="Max Font Size",
                 description="The max font size for the sizing algorithm",
-                default="30",
+                default="40",
             ),
             PluginArgument(
                 id="line_spacing",

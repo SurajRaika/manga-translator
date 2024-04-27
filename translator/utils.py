@@ -674,9 +674,9 @@ def get_best_font_size(
     wh: tuple[int, int],
     font_file: str,
     space_between_lines: int = 1,
-    start_size: int = 18,
+    start_size: int = 30,
     step: int = 1,
-    min_chars_per_line: int = 6,
+    min_chars_per_line: int = 8,
     initial_iterations: int = 0,
     hyphenator: Union[Hyphenator, None] = None,
 ) -> Union[tuple[None, None, None, int], tuple[int, int, int, int]]:

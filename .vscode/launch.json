@@ -21,6 +21,15 @@
             "console": "integratedTerminal",
             "justMyCode": true,
             "args": []
+        },
+        {
+            "name": "Debug openai",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "translator/translators/openai.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": []
         }
     ],
     "inputs": [

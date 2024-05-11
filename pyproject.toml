@@ -33,6 +33,7 @@ opencv-python = "^4.9.0.80"
 openai = "^1.6.0"
 vit-pytorch = "^1.6.5"
 poethepoet = "^0.20.0"
+manga-ocr = "^0.1.11"
 
 [tool.poe.tasks]
 uninstall-torch = "python -m pip uninstall -y torch torchvision"
